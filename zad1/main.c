@@ -7,7 +7,7 @@ int main(int argc, char * argv[]) {
         float a = atof(argv[1]);
         printf("Liczba %f podniesiona do kwadratu wynosi %f", a, a*a);
     } else {
-        printf("Nie podano żadnej wartości");
+        printf("Nie podano ani jednej liczby");
     }
     
     return 0;
